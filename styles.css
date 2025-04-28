@@ -1,0 +1,64 @@
+:root {
+    --header-color: rgb(238, 215, 12);
+    --font-color: #aed3e1;
+    --bg-color: #3f9df5;
+ }
+ body {
+    color: var(--font-color);
+    background-color: var(--bg-color);
+ }
+       
+ h1 {
+    color: var(--header-color);
+    font-size: 3rem;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: center;
+  }
+       
+ h2 {
+    color: var(--header-color);
+    font-size: 2.5rem;
+    font-variant: small-caps;
+    text-align: center;
+ }
+ nav {
+    text-align: center;
+    margin-top: 14px;
+
+ }
+section {
+   text-align: center;
+    display: flex;
+
+ }
+ 
+ nav a {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: larger;
+    padding: 20px;
+ }
+ aside {
+   text-align: center;
+ }
+ 
+ a:link {
+    color: var(--font-color);  
+ }   
+ 
+ a:visited {
+    color: var(--font-color);  
+ }   
+ 
+ a:hover {
+    color: yellow; 
+ }  
+ 
+ a:active {
+    color: purple;
+ }
+
+
+
