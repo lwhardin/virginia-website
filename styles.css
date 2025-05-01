@@ -5,15 +5,16 @@
  }
  body {
     color: var(--font-color);
-    background-color: var(--bg-color);
- }
-       
+    background: linear-gradient(darkblue, skyblue);
+ }     
  h1 {
     color: var(--header-color);
     font-size: 3rem;
     font-style: italic;
     font-variant: small-caps;
     text-align: center;
+    width: auto;
+    height: auto;
   }
        
  h2 {
@@ -21,27 +22,46 @@
     font-size: 2.5rem;
     font-variant: small-caps;
     text-align: center;
+    width: auto;
+    height: auto;
  }
  nav {
     text-align: center;
     margin-top: 14px;
+    width: auto;
+    height: auto;
 
  }
 section {
+   color: white;
    text-align: center;
-    display: flex;
-
+   font-size: large;
+   width: auto;
+   height: auto;
  }
  
  nav a {
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: capitalize;
     font-weight: bold;
     font-size: larger;
     padding: 20px;
  }
  aside {
    text-align: center;
+   width: auto;
+   height: auto;
+ }
+ aside > section {
+      color: white;
+      width: 500px;
+      height: 200px;
+      font-size: 16px;
+      padding: 10px;
+      background: linear-gradient(darkblue, skyblue);
+      box-shadow: 5px 5px 6px gray;
+      border-radius: 5px;
+      border-left: 50px;
  }
  
  a:link {
@@ -59,6 +79,25 @@ section {
  a:active {
     color: purple;
  }
+ .container {
+   text-align: center;
+ }
+.flex-container {
+   display: flex;
+   flex-direction: row;
+}
+
+.feature-right {
+   margin-left: 12px;
+}
+.section-container {
+   display: grid;
+   grid-template-columns: auto;
+   margin: 10px;
+}
+table td {
+   text-align: center;
+}
 
 
 
