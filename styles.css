@@ -95,9 +95,15 @@ section {
    grid-template-columns: auto;
    margin: 10px;
 }
+td > section {
+   margin-left: 50px;
+}
 table td {
    text-align: center;
 }
 
+section > ul {
+   text-align: left;
+}
 
 
